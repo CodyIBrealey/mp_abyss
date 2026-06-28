@@ -1,0 +1,15 @@
+{
+	"Name": "skrubslayer.mp_abyss",
+	"Description": "don't look down",
+	"Version": "0.0.1",
+	"RequiredOnClient": true,
+	"Scripts": [
+	    {
+	        "Path": "DisableImpactMarks.nut",
+	        "RunOn": "CLIENT && MAP_mp_abyss",
+		"ClientCallback": {
+			"After": "DisableImpactMarks"
+         	}
+	    }
+	],
+}
